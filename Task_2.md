@@ -40,3 +40,9 @@ For all the cases the commnication with in the team or between developers and QA
 		 - Regularly check the performance of the whole system.
 
 # 2. Summary
+
+	Hello Team, I am thrilled to join the team. I have noticed several issues that have been affecting our product development process and i would like to propose a plan to address these issues collaboratively to ensure that we improe our efficiency, code quality and overall performance.
+
+		The sprint/development cycles from now on will have time aside for the bug fixing. Each task in the sprint will have a definition of done criteria to avoid the confusions in the end. We will discuss the requirements with in the team for each task clearly to avoid the rework. We will try to introduce testing in parallel with development process, enhance the communication between developers and QA to reduce the bugs. To reduce the code rework , we will define clear code guidelines to improve the code quality. we will have necessary trainings on improving the code reviews and code quality in the team. We will also introduce the code quality control tools in our CI/CD infrastructure. We will also keep a sprint just to address the code quality issues in regular intervals. To address the performace of the product, we will start performace testing as early as possible and regularly monitor the performance issues if any.
+	
+	By implementing these measures, we can enhance our development process, deliver higher-quality products, and improve customer satisfaction. I believe that with your support and collaboration, we can achieve these goals and establish a stronger foundation for our team's success.
