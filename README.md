@@ -19,7 +19,12 @@
 
 # Non functional requirements
     - Performance
+        - Check the load time of the page on different devices and network conditions by using different tools(JMeter) and assess them if they are not as per requirements.
     - Security
+        - Test using certain security attacks and assess.
     - Compatibility
+        - Test on different browsers/devices/OperatingSystems and check the page renderings and proper data.
     - Usability
+        - Get the feedback from usability experts for the user friendlyness or ease of use and assess.
     - Scalability
+        - Use certain load test tools and assess if all the requests get the response and assess the response time with increased number of requests.
