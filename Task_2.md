@@ -12,28 +12,27 @@ For all the cases the commnication with in the team or between developers and QA
 
 		Plan the development cycle by keeping time for the bug fixing, include the left over bugs from last cycle or from backlog if any into the planning. This helps team in achieving the goals.
 
-  - Task done status
+  - Task done status:
 		Discuss and define the "Defination of done(DoD)" criteria for each task in the planning itself to avoid the confusions.
 		Discuss about any discrepencies on DOD criteria in the standup meetings in each development cycle 
 
-  - Code rework
-		Discuss on the root cause of the rework
+  - Code rework:
+		Discuss on the root cause of the rework.
 		if rework is due to bugs
 			- Spend time in discussing the requirements together with all the team members involving.
 		if the rework is due to code quality
 			- Improve the code review prorcess or metrics
 			- Establish code quality guideline or certain CI/CD tools
   
-  - Code quality time
+  - Code quality time:
 		Maintainance of messy code is hectic, rework or feature extension requires lot of effort and money.
-
-		Allocate a sprint/development cycle in regular intervals just for improving the code quality.
-		Establish code quality guidelines or CI/CD tools.
-		Provide necessary trainings to the developers in advance.
+		 - Allocate a sprint/development cycle in regular intervals just for improving the code quality.
+		 - Establish code quality guidelines or CI/CD tools.
+		 - Provide necessary trainings to the developers in advance.
   
   - Slow system over the time
-		Check whats causing the system slowness, use tools if and when necessary.
-		Start performance testing as early as possible.
-		Regularly check the performance of the whole system.
+		 - Check whats causing the system slowness, use tools if and when necessary.
+		 - Start performance testing as early as possible.
+		 - Regularly check the performance of the whole system.
 
 # 2. Summary
