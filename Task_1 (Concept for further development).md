@@ -16,6 +16,7 @@
     - Check if the link "Nach oben" navigates to the top
     - Check the page behavior for all the above testcases on different devices such as tablets or mobiles
     - Check the webpage on different browsers (such as Edge/Firefox etc.)
+    - Report generation can also be added. 
 
 # Non functional requirements
     - Performance
