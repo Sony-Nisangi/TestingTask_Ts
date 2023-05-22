@@ -3,4 +3,5 @@
 3. Type without quotes 'pip install -r requirements.txt'
 4. Wait for everything to download and install
 5. Type without quotes 'python trustedshops.py'
+6. Type without quotes 'python trustedshops.py -report' if the report need to be generated using htmltestrunner
 6. The process will start....Wait till browser gets closed

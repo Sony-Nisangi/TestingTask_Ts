@@ -4,6 +4,8 @@ import typing
 import warnings
 import unittest
 import random as rd
+import HTMLTestRunner
+import sys
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -112,4 +114,12 @@ class TestCase(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    if len(sys.argv) > 1 and sys.argv[1] == "-report":
+        suite = unittest.TestSuite()
+        suite.addTest(unittest.makeSuite(TestCases))
+        dateTimeStamp = time.strftime('%Y%m%d_%H_%M_%S')
+        runner = HTMLTestRunner.HTMLTestRunner(log=True,title='Test the Report',
+                            description='Result of tests', open_in_browser=True)
+        runner.run(suite)
+    else:
+        unittest.main()
